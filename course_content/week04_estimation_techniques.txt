@@ -1,0 +1,109 @@
+# Week 4: Basic Estimation Techniques
+
+## Core Concepts
+
+- **Simple Linear Regression Model**:  
+  Y = a + bX  
+  - a = intercept (value of Y when X = 0)  
+  - b = slope (change in Y per unit change in X)
+
+- The regression line estimates **E[Y|X]**, the expected value of Y given X.
+
+- **Least Squares Estimation**:
+  - Minimizes the sum of squared residuals (differences between actual Y and fitted Ŷ).
+  - Produces sample estimates â and b̂ of true parameters a and b.
+
+- **Unbiased Estimators**:  
+  The expected value of â and b̂ equals the true a and b (on average across samples).
+
+- **Statistical Significance**:
+  - We test whether b̂ ≠ 0 using:
+    - **t-test**: t = (b̂ – 0) / SE(b̂)
+    - **p-value**: If p < α (e.g., 0.05), b̂ is statistically significant.
+
+- **Type I Error**: Rejecting a true null hypothesis (false positive). Controlled by significance level α.
+
+- **R² (Coefficient of Determination)**:
+  - Measures % of variation in Y explained by X.
+  - Ranges from 0 to 1. Higher R² = better fit.
+
+- **F-Test**:
+  - Tests overall regression significance.
+  - If F-stat > critical value (or p < α), model is statistically significant.
+
+- **Multiple Regression**:  
+  Y = a + b₁X₁ + b₂X₂ + … + bₖXₖ  
+  - Each coefficient shows partial effect of its variable holding others constant.
+
+- **Transformations**:
+  - **Quadratic Model**: Y = a + bX + cX² → linear by redefining Z = X²
+  - **Log-Linear Model**: log(Y) = log(a) + b·log(X) + c·log(Z)  
+    - Coefficients are elasticities.
+
+## Key Formulas
+
+- **Residual**: eᵢ = Yᵢ – Ŷᵢ
+- **t-test**: t = (b̂ – 0) / SE(b̂)
+- **R²**: R² = SSR / SST = 1 – SSE / SST
+- **F-test**: F = (ESS / k) / (RSS / (n – k – 1))
+
+## Worked Example
+
+**Q: Suppose we estimate the model Y = a + bX and get b̂ = 2.4, SE(b̂) = 0.8, and n = 25. Is b statistically significant at the 5% level?**
+
+- t = 2.4 / 0.8 = 3.0  
+- Degrees of freedom = 23  
+- Critical t (5%, two-tailed) ≈ 2.07  
+- Since 3.0 > 2.07 → b̂ is statistically significant.
+
+**Interpretation**: A 1-unit increase in X is associated with a 2.4-unit increase in Y, statistically significant at 5%.
+
+## Graphical Insights (Described)
+
+- **Regression Line**: Best fit line through scatterplot.
+- **Residuals**: Vertical distances from points to the regression line.
+- **R²**: Shows how tightly data cluster around the line.
+- **Quadratic/Log Transformations**: Help model nonlinear or multiplicative relationships.
+
+## Practice Quiz Questions
+
+**1. What does the slope coefficient in a simple regression represent?**  
+A. Marginal effect of Y on X  
+B. Intercept of the model  
+C. Change in X for a one-unit change in Y  
+D. Change in Y for a one-unit change in X  
+**Answer:** D
+
+**2. Which of the following is NOT a property of an unbiased estimator?**  
+A. On average, it equals the true parameter  
+B. Its standard error is always 0  
+C. It's based on repeated sampling  
+D. It's centered around the true parameter  
+**Answer:** B
+
+**3. If R² = 0.90, what does this mean?**  
+A. 90% of X explains Y  
+B. The model is incorrect  
+C. 90% of the variation in Y is explained by the model  
+D. The slope is statistically significant  
+**Answer:** C
+
+**4. What is the null hypothesis in a t-test for slope b?**  
+A. b = 1  
+B. b = 0  
+C. b = a  
+D. b ≠ a  
+**Answer:** B
+
+**5. In a log-linear model, the coefficient on log(X) is interpreted as:**  
+A. A marginal cost  
+B. A slope of the demand curve  
+C. An elasticity  
+D. An intercept  
+**Answer:** C
+
+## Additional Teaching Notes
+
+- Emphasize that statistical significance ≠ economic significance.
+- Use Excel or R output examples to reinforce p-values, R², and F-stat interpretation.
+- Reinforce misuse of R² in non-linear, non-causal contexts.
