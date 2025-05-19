@@ -1,0 +1,74 @@
+# Week 1: Managers, Profits, and Markets
+
+
+## Core Concepts
+
+- Managerial economics applies microeconomic principles to real-world decision-making to maximize firm profit.
+- Economic theory abstracts complexity to guide optimal decisions.
+- Firms aim to maximize **economic profit**, not just **accounting profit**.
+- **Opportunity cost** underlies both explicit and implicit costs.
+- Strategic decisions (from industrial organization) shape competitive positioning, unlike routine tactics.
+- The **principal-agent problem** arises when managerial incentives diverge from owner goals, leading to **moral hazard**.
+- Market structures (perfect competition, monopoly, monopolistic competition, oligopoly) determine a firm’s pricing power.
+- Market globalization affects firm competition and market strategy.
+
+## Key Formulas
+
+- **Economic Profit** = Total Revenue – (Explicit Costs + Implicit Costs)
+- **Accounting Profit** = Total Revenue – Explicit Costs
+- **Firm Value** = Present Value of Future Economic Profit (adjusted by a risk premium)
+
+## Worked Example
+
+**Q: If a firm earns $10 million in total revenue, has $6 million in explicit costs, and $2 million in implicit costs, what is the economic and accounting profit?**
+
+- Economic Profit = 10M – (6M + 2M) = **$2M**
+- Accounting Profit = 10M – 6M = **$4M**
+
+→ The economic profit better reflects the true opportunity cost of firm resources.
+
+## Graphical/Conceptual Insights
+
+- **Economic vs. Accounting Profit**: Accounting ignores owner-supplied resources.
+- **Principal-Agent Problems**: Asymmetric information leads to hidden actions (moral hazard).
+- **Market Structures**:
+  - Perfect Competition: Many firms, no pricing power.
+  - Monopoly: One firm, full market power.
+  - Monopolistic Competition: Many firms, product differentiation.
+  - Oligopoly: Few firms, strategic interdependence.
+
+## Practice Quiz Questions
+
+**1. Which of the following best describes an implicit cost?**
+A. A cash payment to a supplier  
+B. A wage paid to an employee  
+C. The owner’s foregone salary from managing the firm  
+D. Depreciation expense  
+**Answer:** C
+
+**2. Why is economic profit generally less than accounting profit?**
+A. It omits fixed costs  
+B. It includes implicit costs  
+C. It ignores sunk costs  
+D. It uses different tax rates  
+**Answer:** B
+
+**3. What condition is NOT part of a principal-agent problem?**
+A. Misaligned objectives  
+B. High fixed costs  
+C. Asymmetric information  
+D. Hidden actions  
+**Answer:** B
+
+**4. What market structure has many firms and product differentiation?**
+A. Perfect competition  
+B. Oligopoly  
+C. Monopoly  
+D. Monopolistic competition  
+**Answer:** D
+
+## Additional Teaching Notes
+
+- Emphasize the distinction between short-run and long-run profit objectives.
+- Tie moral hazard to real-world corporate governance (e.g., executive compensation).
+- Reinforce the firm’s **value-maximization** goal in every application.
