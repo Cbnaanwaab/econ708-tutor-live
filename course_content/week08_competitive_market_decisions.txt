@@ -1,0 +1,159 @@
+-# Week 8: Managerial Decisions in Competitive Markets
+
+## Core Concepts
+
+### 1. Characteristics of Perfect Competition
+- Firms are **price takers**: each produces a small share of total market output.
+- Products are **homogeneous**.
+- **Free entry and exit** in the long run.
+
+> Demand curve for an individual firm is perfectly **elastic** at the market price.  
+> **D = MR = P** for a competitive firm.
+
+---
+
+### 2. Short-Run Decisions
+
+#### a. **Shut Down vs. Produce**
+- **Shut down** if: TR < TVC or P < AVC
+- **Produce** if: P ≥ AVC  
+- Fixed costs are irrelevant in short-run production decisions (they’re sunk).
+
+#### b. **How Much to Produce**
+- Produce where: **P = SMC**, if P ≥ AVC
+- Ignore **profit margin** (P – ATC) in determining Q*; it doesn’t maximize total profit.
+
+#### c. **Break-even Points**
+- Occur where: **P = ATC**
+- At break-even, profit = 0
+
+#### d. **Short-Run Supply Curve**
+- Firm: Portion of **MC** curve above min **AVC**
+- Industry: Horizontal summation of firms' supply curves → **upward-sloping**
+
+#### e. **Producer Surplus (PS)**
+- PS = TR – TVC = Area above SMC and below price
+- Economic profit = PS – TFC
+
+---
+
+### 3. Long-Run Equilibrium
+
+- Firms earn **zero economic profit**:  
+  **P = LMC = LAC**, at LAC's minimum
+- **Entry/exit** of firms ensures this outcome
+
+#### a. Long-Run Supply Curves
+- **Constant-cost industry** → LRS is **horizontal**
+- **Increasing-cost industry** → LRS is **upward-sloping**
+- In both cases, P = min LAC in long-run equilibrium
+
+---
+
+### 4. Economic Rent
+- Payment to a **scarce, superior input** above its opportunity cost
+- In long-run equilibrium, any potential economic profit from superior resources becomes rent paid to the resource owner
+- Rent ≠ profit to the firm
+
+---
+
+### 5. Input Usage for Profit Maximization
+
+#### a. **Marginal Revenue Product (MRP)**
+- MRP = MR × MP = P × MP (for a price-taking firm)
+- Hire input until: **MRP = Input Price**
+
+#### b. **Average Revenue Product (ARP)**
+- ARP = TR / L = P × AP
+- If **ARP < input price** for all L → shut down
+
+---
+
+### 6. Implementation Steps (Empirical)
+
+**Step 1:** Forecast product price (use regression/time series)  
+**Step 2:** Estimate AVC and MC (e.g., use cubic cost function)  
+**Step 3:** Check shut down: P < AVCmin → Q* = 0  
+**Step 4:** If P ≥ AVCmin, solve P = MC to find Q*  
+**Step 5:** Compute profit = TR – TC = (P – ATC) × Q
+
+---
+
+## Key Formulas
+
+- **Profit** = TR – TC = (P – ATC) × Q
+- **Shutdown Rule**: Produce if P ≥ AVC; else, shut down
+- **MRP (Labor)** = P × MP  
+- **ARP** = TR / L = P × AP
+- **Break-even**: P = ATC  
+- **Producer Surplus** = TR – TVC
+
+---
+
+## Worked Example
+
+**Q: A firm has AVC = $12, ATC = $18, P = $15. Should it produce?**
+
+- P = 15 > AVC = 12 → produce
+- Profit = (15 – 18) × Q = –$3Q → operating at a **loss**, but covering variable costs
+
+**Q: If MR = $30 and MP = 5, what's MRP?**
+
+- MRP = 30 × 5 = **$150**
+- If wage = $120 → hire more labor
+
+---
+
+## Graphical Insights (Described)
+
+- Firm's **supply curve** is the MC curve above AVC
+- Market supply = sum of firms’ MC curves
+- Break-even = P = ATC → zero economic profit
+- Shut-down point = min AVC
+
+---
+
+## Practice Quiz Questions
+
+**1. When should a competitive firm shut down in the short run?**  
+A. When P < ATC  
+B. When P < MC  
+C. When P < AVC  
+D. When profit is negative  
+**Answer:** C
+
+**2. In perfect competition, MR equals:**  
+A. ATC  
+B. AVC  
+C. Price  
+D. MC  
+**Answer:** C
+
+**3. If TR = $600 and TVC = $400, what is producer surplus?**  
+A. $200  
+B. $400  
+C. $600  
+D. $0  
+**Answer:** A
+
+**4. Which input rule maximizes profit?**  
+A. MP = AP  
+B. ARP = Input Price  
+C. MRP = Input Price  
+D. TC = TR  
+**Answer:** C
+
+**5. What is the shape of the long-run supply curve in a constant-cost industry?**  
+A. Downward sloping  
+B. Upward sloping  
+C. Vertical  
+D. Horizontal  
+**Answer:** D
+
+---
+
+## Additional Teaching Notes
+
+- Use numerical tables to simulate AVC/ATC curves and shut-down rules
+- Reinforce the **irrelevance of fixed costs** in short-run decisions
+- Draw connection between **input-based** and **output-based** optimization
