@@ -1,0 +1,173 @@
+# Week 9: Managerial Decisions for Firms with Market Power
+
+## Core Concepts
+
+### 1. What is Market Power?
+- **Market power**: Firm can raise price without losing all customers.
+- Present when demand is **downward sloping** (not perfectly elastic).
+- **Monopoly**: One firm, no close substitutes, high entry barriers.
+
+> More inelastic demand → greater market power  
+> Market power enables positive **economic profit** in both short and long run
+
+---
+
+### 2. Measuring Market Power
+
+#### a. **Lerner Index**  
+Measures markup of price over marginal cost:
+
+L = (P – MC) / P
+
+- L = 0 under perfect competition  
+- L increases as market power increases
+
+#### b. **Cross-Price Elasticity**  
+- Positive EXY → substitutes → limits market power  
+- More substitutes = higher elasticity = lower power
+
+---
+
+### 3. Sources of Market Power
+
+- **Economies of Scale**: Big firms can drive prices below rival’s costs
+- **Legal Barriers**: Licenses, patents, exclusive franchises
+- **Essential Inputs**: Control over critical resource
+- **Brand Loyalty**: Hard for new firms to gain market share
+- **Switching Costs**: Lock-in prevents consumer movement
+- **Network Externalities**: Value increases with more users (e.g., platforms)
+
+---
+
+### 4. Monopoly Decision Rules
+
+#### a. **Short Run**
+- Produce where **MR = SMC** if P ≥ AVC  
+- Shut down if P < AVC
+
+#### b. **Long Run**
+- Produce where **MR = LMC** if P ≥ LAC  
+- Exit if P < LAC  
+- Optimal plant minimizes **LAC** at chosen Q
+
+---
+
+### 5. Input Hiring
+
+- **MRP = MR × MP**
+- Hire inputs until **MRP = Input Price**
+- Equivalence: MRP = w ⇔ MR = MC
+
+---
+
+### 6. Monopolistic Competition
+
+- Many firms with **differentiated products** and **free entry**
+- **Short-run equilibrium**: Same as monopoly (MR = MC, P > MC)
+- **Long-run equilibrium**: P = LAC; profit = 0  
+  (entry erodes economic profit)
+
+---
+
+### 7. Profit Maximization Procedure (Steps)
+
+**Step 1**: Estimate demand function (Q = a + bP + …)  
+**Step 2**: Solve for **inverse demand**: P = f(Q)  
+**Step 3**: Compute **Marginal Revenue (MR)** from inverse demand  
+**Step 4**: Estimate **AVC** and **SMC** functions (e.g., cubic)  
+**Step 5**: Solve **MR = SMC** → find Q*  
+**Step 6**: Plug Q* into inverse demand → find P*  
+**Step 7**: Check shutdown rule:  
+- If P* < AVC(Q*) → shut down  
+- Else → operate
+
+**Step 8**: Compute profit:  
+Profit = (P × Q) – (AVC × Q) – TFC  
+If shutdown: Profit = –TFC
+
+---
+
+### 8. Two-Plant Output Allocation
+
+If a firm operates plants A and B:
+
+- Profit-maximizing output allocation satisfies:  
+  **MR = MCA = MCB**
+
+---
+
+## Key Formulas
+
+- **Lerner Index**: L = (P – MC) / P  
+- **MRP** = MR × MP  
+- **Profit** = TR – TC = (P × Q) – (AVC × Q) – TFC  
+- **Shutdown rule**: Operate if P ≥ AVC(Q)
+
+---
+
+## Worked Example
+
+**Q: A monopolist faces demand P = 100 – 2Q. Cost function is C = 20Q + 100. Find Q*, P*, and profit.**
+
+1. MR = d(TR)/dQ = 100 – 4Q  
+2. MC = dC/dQ = 20  
+3. Set MR = MC: 100 – 4Q = 20 → Q* = 20  
+4. P* = 100 – 2(20) = $60  
+5. Profit = TR – TC = (60×20) – (20×20 + 100) = 1200 – 500 = **$700**
+
+---
+
+## Graphical Insights (Described)
+
+- **MR curve** lies below demand curve for monopolist  
+- **Profit-maximizing point**: MR = MC  
+- **Shutdown point**: P = AVC  
+- Under monopolistic competition, LR equilibrium occurs where demand is tangent to LAC
+
+---
+
+## Practice Quiz Questions
+
+**1. What does the Lerner Index measure?**  
+A. Product differentiation  
+B. Price elasticity  
+C. Market power  
+D. Consumer surplus  
+**Answer:** C
+
+**2. When P < AVC, what should the monopolist do?**  
+A. Raise price  
+B. Expand output  
+C. Shut down  
+D. Increase fixed cost  
+**Answer:** C
+
+**3. If a firm has a downward sloping demand curve, it:**  
+A. Is perfectly competitive  
+B. Has market power  
+C. Is making zero profit  
+D. Faces constant MR  
+**Answer:** B
+
+**4. In monopolistic competition, long-run profits are:**  
+A. Positive  
+B. Zero  
+C. Negative  
+D. Unlimited  
+**Answer:** B
+
+**5. A firm should hire input until:**  
+A. MRP = MC  
+B. MP = MR  
+C. MRP = wage  
+D. MC = ATC  
+**Answer:** C
+
+---
+
+## Additional Teaching Notes
+
+- Emphasize importance of elasticity in pricing decisions  
+- Use simulations to show effects of barriers to entry  
+- Contrast monopoly vs. monopolistic competition outcomes  
+- Reinforce multi-step approach to solve MR = MC and pricing
