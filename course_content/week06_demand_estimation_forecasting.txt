@@ -1,0 +1,118 @@
+# Week 6: Demand Estimation and Forecasting
+
+## Core Concepts
+
+### 1. **Direct Methods of Demand Estimation**
+- **Consumer Interviews**: Quick but prone to response bias, inaccurate recall, and sampling issues.
+- **Market Studies**: Controlled simulations where price is varied to isolate effects on quantity.
+- **Lab Experiments**: Volunteers simulate buying behavior.
+- **Field Experiments**: Real-life consumer response under manipulated variables.
+
+### 2. **Empirical Demand Functions**
+- Derived from actual market data:
+  Q = f(P, M, PR, N)
+  - P: Price of the good  
+  - M: Income  
+  - PR: Price of related good  
+  - N: Number of consumers  
+
+- Linear form:  
+  Q = a + bP + cM + dPR + eN  
+  - b: negative (law of demand)  
+  - c: positive (normal good) or negative (inferior good)  
+  - d: positive (substitute) or negative (complement)
+
+### 3. **Elasticity Estimation**
+- Coefficients in linear demand can be transformed into elasticities at given values of P and Q.
+
+### 4. **Log-Linear Demand Models**
+- ln(Q) = ln(a) + b·ln(P) + c·ln(M) + d·ln(PR) + e·ln(N)  
+- Elasticities are constant:  
+  - b: price elasticity  
+  - c: income elasticity  
+  - d: cross-price elasticity
+
+### 5. **Firm-Level Demand Estimation Steps**
+1. Specify demand function for the firm  
+2. Collect data on price, income, substitutes, etc.  
+3. Estimate parameters using regression
+
+### 6. **Time-Series Forecasting**
+- Models quantity (Qt) as a function of time (t)
+  - Linear trend: Qt = a + bt  
+  - If b > 0: increasing sales; b < 0: decreasing sales
+
+### 7. **Seasonal (Cyclical) Variation**
+- Controlled by adding **dummy variables**:
+  - D₁, D₂, ..., Dₖ for k seasonal periods (only k–1 needed)
+  - Dummy = 1 if observation falls in that season, else 0
+
+### 8. **Forecasting Cautions**
+- Forecast accuracy decreases with time horizon (wider confidence intervals)
+- Model misspecification (e.g., omitted variable, wrong functional form)
+- Forecasts cannot anticipate sudden market shocks or structural changes
+
+## Key Formulas
+
+- **Linear Demand**: Q = a + bP + cM + dPR + eN
+- **Log-Linear Demand**: ln(Q) = ln(a) + b·ln(P) + c·ln(M) + d·ln(PR) + e·ln(N)
+- **Linear Trend Forecast**: Qt = a + bt
+- **Seasonal Model with Dummy Variables**: Qt = a + bt + D₁ + D₂ + ... + Dₖ₋₁
+
+## Worked Example
+
+**Q: A log-linear demand model estimated as ln(Q) = 6.2 – 1.5·ln(P) + 0.4·ln(M)**  
+- **Price elasticity** = –1.5 (elastic)
+- **Income elasticity** = 0.4 (normal good, not a luxury)
+
+**Q: Forecast sales for t = 20 given Qt = 500 + 20t → Qt = ?**  
+Qt = 500 + 20·20 = **900 units**
+
+## Graphical Insights (Described)
+
+- **Linear Trend**: upward/downward sloping line fit to sales data
+- **Forecast Intervals**: widening bands around forecast line as t increases
+- **Seasonal Variation**: sawtooth pattern or shifting parallel lines via dummy adjustments
+
+## Practice Quiz Questions
+
+**1. Which of the following is a weakness of consumer interview methods?**  
+A. Real-time tracking  
+B. Selection bias  
+C. Revealed preference accuracy  
+D. Large sample requirement  
+**Answer:** B
+
+**2. In a log-linear model, the coefficient on ln(P) is interpreted as:**  
+A. Marginal effect  
+B. Intercept  
+C. Elasticity  
+D. Dummy variable  
+**Answer:** C
+
+**3. What does a time-series regression with b = 0 imply?**  
+A. Increasing trend  
+B. No trend  
+C. Non-stationarity  
+D. Seasonal pattern  
+**Answer:** B
+
+**4. To account for quarterly cycles, how many dummy variables are needed?**  
+A. 2  
+B. 3  
+C. 4  
+D. 5  
+**Answer:** B
+
+**5. What is the first step in estimating firm-level demand?**  
+A. Collect data  
+B. Run regression  
+C. Specify demand function  
+D. Forecast prices  
+**Answer:** C
+
+## Additional Teaching Notes
+
+- Use Excel or R to practice trend line and dummy-variable regression.
+- Emphasize interpretation of elasticities in business decisions.
+- Warn students about overfitting and false precision in forecasting.
