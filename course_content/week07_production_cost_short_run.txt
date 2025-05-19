@@ -1,0 +1,125 @@
+# Week 7: Production and Cost in the Short Run
+
+## Core Concepts
+
+### 1. **Production Function**
+- Describes the maximum output from a set of inputs given current technology.
+- **Technical efficiency**: Producing the most output from a given input bundle.
+- **Economic efficiency**: Producing a given output at the lowest total cost.
+
+### 2. **Types of Inputs**
+- **Variable input**: Can be adjusted in the short run (e.g., labor). Costs = Variable Costs.
+- **Fixed input**: Cannot be changed in short run (e.g., leased capital). Costs = Fixed Costs.
+- **Quasi-fixed input**: Required only if output > 0 (e.g., power for lighting); Cost = Quasi-fixed Cost.
+
+| Input Type       | Paid If Q = 0? | Avoidable? | Cost Category  |
+|------------------|----------------|------------|----------------|
+| Variable         | No             | Yes        | Variable Cost  |
+| Fixed            | Yes            | No         | Fixed Cost     |
+| Quasi-fixed      | No             | Yes        | Quasi-fixed    |
+
+### 3. **Time Frames**
+- **Short run**: At least one input is fixed.
+- **Long run**: All inputs are variable.
+
+### 4. **Sunk vs. Avoidable Costs**
+- **Sunk Cost**: Already incurred; cannot be recovered → **irrelevant** for decisions.
+- **Avoidable Cost**: Can be prevented if activity stops → **relevant** for decisions.
+
+### 5. **Product Measures**
+- **Total Product (TP)**: Output produced with a given input.
+- **Average Product (AP)** = TP / input
+- **Marginal Product (MP)** = ΔTP / Δinput
+
+> Relationship: When AP is rising (falling), MP > (<) AP. When AP is max, MP = AP.
+
+### 6. **Law of Diminishing Marginal Product**
+- As more units of a variable input are added, MP eventually declines.
+
+### 7. **Cost Curves in the Short Run**
+- **Total Cost (TC)** = TFC + TVC
+- **Average Fixed Cost (AFC)** = TFC / Q → always decreasing
+- **Average Variable Cost (AVC)** = TVC / Q → U-shaped
+- **Average Total Cost (ATC)** = TC / Q = AVC + AFC
+- **Short-run Marginal Cost (SMC)** = ΔTC / ΔQ → U-shaped
+
+> Intersections:
+- SMC = AVC at AVC’s minimum  
+- SMC = ATC at ATC’s minimum  
+- SMC < ATC (or AVC) when ATC (or AVC) is falling; SMC > when rising
+
+## Key Formulas
+
+- **AP** = TP / Input  
+- **MP** = ΔTP / ΔInput  
+- **TC** = TVC + TFC  
+- **AFC** = TFC / Q  
+- **AVC** = TVC / Q  
+- **ATC** = TC / Q = AVC + AFC  
+- **SMC** = ΔTC / ΔQ
+
+## Worked Example
+
+**Q: Suppose a firm produces 100 units with total cost TC = $900 and TFC = $300.**
+
+- TVC = 900 – 300 = $600  
+- AVC = 600 / 100 = $6  
+- AFC = 300 / 100 = $3  
+- ATC = 900 / 100 = $9  
+- If Q increases to 101 and TC = $909 →  
+  SMC = (909 – 900) / (101 – 100) = **$9**
+
+**Q: When MP < AP, what happens to AP?**  
+→ AP is decreasing.
+
+## Graphical Insights (Described)
+
+- **TP Curve**: Initially increasing at an increasing rate, then diminishing returns set in.
+- **MP and AP**: MP peaks first, AP peaks later; MP intersects AP at AP’s maximum.
+- **Cost Curves**:
+  - AFC declines continuously
+  - AVC and ATC are U-shaped
+  - SMC intersects both AVC and ATC at their minimum points
+
+## Practice Quiz Questions
+
+**1. Which of the following is an avoidable cost?**  
+A. Lease payment on idle equipment  
+B. One-time sunk investment  
+C. Hourly wages for workers  
+D. Licensing fee already paid  
+**Answer:** C
+
+**2. If marginal product is greater than average product, then:**  
+A. Average product is rising  
+B. Average product is falling  
+C. Marginal cost is decreasing  
+D. The firm is not technically efficient  
+**Answer:** A
+
+**3. A cost paid regardless of output level is:**  
+A. Variable cost  
+B. Marginal cost  
+C. Fixed cost  
+D. Avoidable cost  
+**Answer:** C
+
+**4. What shape is the short-run marginal cost curve?**  
+A. Linear  
+B. U-shaped  
+C. Inverted U  
+D. Constant  
+**Answer:** B
+
+**5. When SMC is below ATC, ATC must be:**  
+A. Rising  
+B. Falling  
+C. Constant  
+D. Negative  
+**Answer:** B
+
+## Additional Teaching Notes
+
+- Use spreadsheet exercises to graph TP, MP, and cost curves.
+- Connect short-run cost curves to decisions about pricing and output.
+- Emphasize why marginal values drive optimization, not average values.
