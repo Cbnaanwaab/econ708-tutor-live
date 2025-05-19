@@ -1,0 +1,104 @@
+# Week 2: Demand, Supply, and Market Equilibrium
+
+## Core Concepts
+
+- **Quantity Demanded (Qd)**: Amount consumers are willing and able to buy.
+- **General Demand Function**: Qd = f(P, M, PR, T, PE, N)
+  - P: Price of the good (negative relationship)
+  - M: Consumer income (positive for normal goods, negative for inferior goods)
+  - PR: Price of related goods (positive for substitutes, negative for complements)
+  - T: Tastes and preferences (positive)
+  - PE: Expected future price (positive)
+  - N: Number of consumers (positive)
+
+- **Direct Demand Function**: Qd = f(P), holding other variables constant.
+
+- **Quantity Supplied (Qs)**: Amount producers are willing and able to sell.
+- **General Supply Function**: Qs = f(P, PI, Pr, T, Pe, F)
+  - P: Price of the good (positive)
+  - PI: Input prices (negative)
+  - Pr: Related goods in production (sign depends on substitute vs complement)
+  - T: Technology (positive)
+  - Pe: Expected future price (negative)
+  - F: Number of firms or capacity (positive)
+
+- **Equilibrium**: Market clears where Qd = Qs. Changes in determinants shift demand/supply and affect the equilibrium price and quantity.
+
+- **Price Ceilings and Floors**:
+  - Price Ceiling < equilibrium → Shortage
+  - Price Floor > equilibrium → Surplus
+
+## Key Formulas
+
+- **General Demand (Linear Form)**:
+  Qd = a + bP + cM + dPR + eT + fPE + gN
+
+- **General Supply (Linear Form)**:
+  Qs = h + kP + lPI + mPr + nT + rPe + sF
+
+- **Equilibrium**:
+  Solve: Qd = Qs for equilibrium P and Q
+
+## Worked Example
+
+**Q: Suppose demand is Qd = 100 – 2P and supply is Qs = 20 + 3P. What is the equilibrium price and quantity?**
+
+Set Qd = Qs:
+
+100 – 2P = 20 + 3P  
+→ 80 = 5P  
+→ P = 16  
+→ Q = 100 – 2(16) = 68
+
+**Answer: Equilibrium price is $16, equilibrium quantity is 68 units.**
+
+## Graphical Insights (Described)
+
+- Demand curve slopes downward; supply slopes upward.
+- Shift in demand → moves the entire demand curve.
+- Movement *along* demand/supply = change in quantity demanded/supplied.
+- Simultaneous shifts in supply and demand: Direction of P or Q may be indeterminate.
+
+## Practice Quiz Questions
+
+**1. What happens to quantity demanded when the price of a normal good rises (ceteris paribus)?**  
+A. It increases  
+B. It stays constant  
+C. It decreases  
+D. It becomes indeterminate  
+**Answer:** C
+
+**2. Which of the following shifts the supply curve rightward?**  
+A. Higher input prices  
+B. Improved production technology  
+C. Increase in expected future price  
+D. Fewer firms in the market  
+**Answer:** B
+
+**3. If income rises and demand for ramen noodles falls, ramen is most likely a:**  
+A. Normal good  
+B. Luxury good  
+C. Inferior good  
+D. Giffen good  
+**Answer:** C
+
+**4. What is the likely effect of a binding price ceiling?**  
+A. Surplus  
+B. Shortage  
+C. Equilibrium  
+D. No effect  
+**Answer:** B
+
+**5. When both demand and supply increase, equilibrium quantity will:**  
+A. Always rise  
+B. Always fall  
+C. Remain unchanged  
+D. Rise, but price effect is indeterminate  
+**Answer:** D
+
+## Additional Teaching Notes
+
+- Emphasize difference between “change in demand” (shift) vs. “change in quantity demanded” (movement).
+- Use real-world examples (e.g., gas prices, tech markets) to illustrate determinants.
+- Highlight policy relevance of price controls (e.g., rent ceilings, minimum wage).
+
