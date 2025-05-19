@@ -1,0 +1,93 @@
+# Week 3: Marginal Analysis for Optimal Decisions
+
+## Core Concepts
+
+- **Optimization Problem**: Defined by an objective function (to maximize or minimize), choice variables, and constraints.
+- **Net Benefit (NB)**: NB = Total Benefit (TB) – Total Cost (TC); this is the objective to maximize.
+- **Marginal Analysis**: Examine small changes in the level of an activity to assess their impact on NB.
+  - Marginal Benefit (MB) = ΔTB / ΔA
+  - Marginal Cost (MC) = ΔTC / ΔA
+- The **optimal level of activity (A\*)** occurs when: **MB = MC**
+- **Continuous vs. Discrete Choices**:
+  - Continuous: choose from a range of values.
+  - Discrete: choose from countable activity levels.
+- **Decision Rule for Discrete Choices**:
+  - Increase activity if MB > MC
+  - Decrease activity if MB < MC
+  - Optimal is last unit where MB ≥ MC
+- **Sunk Costs**: Irrecoverable and irrelevant for future decision-making.
+- **Fixed Costs**: Do not change with activity level — also irrelevant for marginal decisions.
+- **Average Costs**: Should not be used for optimization decisions.
+- **Bang per Buck (MB/P)**: Used in constrained problems to maximize benefit per dollar.
+- **Equimarginal Principle**: To allocate budget optimally across activities, set:  
+  MB₁/P₁ = MB₂/P₂ = ... = MBₙ/Pₙ
+
+## Key Formulas
+
+- **Net Benefit**: NB = TB – TC
+- **Marginal Benefit**: MB = ΔTB / ΔA
+- **Marginal Cost**: MC = ΔTC / ΔA
+- **Optimal Condition (Unconstrained)**: MB = MC
+- **Optimal Condition (Constrained)**: MB₁/P₁ = MB₂/P₂ = … = MBₙ/Pₙ, subject to budget constraint
+
+## Worked Example
+
+**Q: A firm’s total benefit from advertising is TB = 200A – 5A² and total cost is TC = 10A. What is the optimal level of advertising (A)?**
+
+1. NB = TB – TC = (200A – 5A²) – 10A = 190A – 5A²  
+2. MB = d(TB)/dA = 200 – 10A  
+3. MC = d(TC)/dA = 10  
+4. Set MB = MC: 200 – 10A = 10 → A = 19  
+
+**Answer: Optimal advertising = 19 units**
+
+## Graphical Insights (Described)
+
+- Net Benefit curve peaks at A\*
+- MB and MC intersect at A\*
+- Slope of TB = MB; Slope of TC = MC
+- Sunk costs and fixed costs do not affect MB or MC → irrelevant for optimization
+
+## Practice Quiz Questions
+
+**1. What is the condition for optimal activity in an unconstrained problem?**  
+A. MB = 0  
+B. MB = MC  
+C. MB > MC  
+D. TB = TC  
+**Answer:** B
+
+**2. A cost that has already been incurred and cannot be recovered is called a:**  
+A. Variable cost  
+B. Average cost  
+C. Sunk cost  
+D. Marginal cost  
+**Answer:** C
+
+**3. Which cost should decision makers IGNORE when making marginal decisions?**  
+A. Marginal cost  
+B. Sunk cost  
+C. Opportunity cost  
+D. Variable cost  
+**Answer:** B
+
+**4. If MB > MC for a given level of activity, what should the decision maker do?**  
+A. Decrease the activity  
+B. Hold the activity constant  
+C. Increase the activity  
+D. Shut down operations  
+**Answer:** C
+
+**5. In a constrained problem, optimal allocation requires:**  
+A. Equal costs across all activities  
+B. MB = MC for each activity  
+C. MB/P equalized across activities  
+D. Spending all of the budget on one activity  
+**Answer:** C
+
+## Additional Teaching Notes
+
+- Emphasize the danger of using average cost or sunk cost logic in firm decisions.
+- Draw TB, TC, MB, and MC graphs and highlight A\*.
+- Use real-world cases: optimal ad budget, labor hours allocation, resource mix decisions.
+
