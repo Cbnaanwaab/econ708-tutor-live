@@ -1,0 +1,152 @@
+# Week 10: Strategic Decision Making in Oligopoly Markets
+
+## Core Concepts
+
+### 1. Nature of Oligopoly
+- Small number of firms → **interdependent decisions**
+- Each firm’s pricing/output affects rivals’ outcomes
+- Strategic thinking is required → **Game Theory** is the tool
+
+---
+
+## 2. Game Theory Sections
+
+### A. Simultaneous Decisions
+
+- Firms act **without knowing rivals’ actions**
+- **Dominant Strategy**: Best action regardless of rival’s decision
+- **Dominant Strategy Equilibrium**: All firms choose their dominant strategies
+
+#### Key Concepts
+- **Prisoner’s Dilemma**: All firms choose dominant strategies but are worse off than if they cooperated
+- **Dominated Strategy**: Never optimal → eliminate it
+- **Nash Equilibrium**: Each firm chooses its best response given rivals’ decisions
+- **Best-Response Curves**: Graphical version of Nash — intersect at equilibrium
+
+---
+
+### B. Sequential Decisions
+
+- Firms act in **sequence** (one after another)
+- Use **game trees** and **rollback (backward induction)**
+- **First-mover advantage**: Going first leads to better payoff
+- **Second-mover advantage**: Reacting leads to better payoff
+
+#### Strategic Moves
+1. **Commitment**: Binding yourself to a future action
+2. **Threat**: “If you do X, I’ll do Y (bad for you)”
+3. **Promise**: “If you do X, I’ll do Y (good for you)”
+- All must be **credible** to influence outcomes
+
+---
+
+### C. Repeated Decisions
+
+- **One-shot game**: No cooperation — expect cheating
+- **Repeated game**: Cooperation possible via punishment strategies
+
+#### Trigger Strategies
+- **Tit-for-Tat**: Mimic last move (punish then forgive)
+- **Grim Trigger**: One cheat triggers **eternal punishment**
+- **Cooperation is stable** if: PV(cost of cheating) > PV(benefits)
+
+#### Facilitating Practices
+- **Price matching**: Reduces gains from undercutting
+- **Sale-price guarantees**: Locks in customer price expectations
+- **Public pricing**: Makes cheating easier to detect
+- **Price leadership**: Leader sets price, followers match
+
+---
+
+### D. Strategic Entry Deterrence
+
+- Incumbents use strategic moves to **deter entry**
+
+#### Tactics
+- **Limit Pricing**: Set price low enough to make market unattractive
+- **Capacity Expansion**: Increase output capacity to threaten price cuts upon entry
+
+> These moves change **entrants’ expectations** about profitability
+
+---
+
+## Key Definitions and Concepts
+
+- **Game**: Strategic situation with interdependent payoffs
+- **Nash Equilibrium**: No one has incentive to deviate unilaterally
+- **Best Response**: Optimal choice given what you expect rivals to do
+- **Strategic Stability**: Outcome that no one wants to change unilaterally
+
+---
+
+## Worked Example
+
+**Q: Two firms face the following payoff matrix:**
+
+| Firm B | High Price | Low Price |
+|--------|------------|-----------|
+| **Firm A: High Price** | 5, 5      | 1, 8     |
+| **Firm A: Low Price**  | 8, 1      | 2, 2     |
+
+- Both have dominant strategy = Low Price  
+- Nash Equilibrium = (Low, Low) → Payoffs: 2, 2  
+- But both would be better off choosing High (5, 5)  
+→ Classic **Prisoner’s Dilemma**
+
+---
+
+## Graphical Insights (Described)
+
+- **Best-response curves** intersect at Nash equilibrium  
+- **Game trees** trace sequential moves and payoffs  
+- **Trigger strategies** sustain cooperation over time  
+- Entry deterrence shifts perceived **profit landscape** for rivals
+
+---
+
+## Practice Quiz Questions
+
+**1. In Nash equilibrium:**  
+A. Each player chooses a random strategy  
+B. Firms collude for maximum profit  
+C. No firm has an incentive to deviate unilaterally  
+D. One firm dominates the other  
+**Answer:** C
+
+**2. What is the likely outcome in a one-shot Prisoner’s Dilemma?**  
+A. Cooperation  
+B. Both cheat  
+C. One cheats, one cooperates  
+D. No action  
+**Answer:** B
+
+**3. Which of the following is a trigger strategy?**  
+A. Matching marginal cost  
+B. Price leadership  
+C. Tit-for-tat  
+D. Capacity signaling  
+**Answer:** C
+
+**4. A first-mover advantage exists when:**  
+A. Both players have the same payoff  
+B. Going first increases your payoff  
+C. The market is monopolistic  
+D. The game is repeated indefinitely  
+**Answer:** B
+
+**5. Which tactic is NOT a form of entry deterrence?**  
+A. Price matching  
+B. Limit pricing  
+C. Capacity expansion  
+D. Raising rivals’ costs  
+**Answer:** A
+
+---
+
+## Additional Teaching Notes
+
+- Use role-play or simulation games in class to illustrate dominant vs. Nash strategies  
+- Reinforce difference between **simultaneous** and **sequential** moves  
+- Discuss **tacit collusion** and the legal boundaries of facilitating practices  
+- Connect game theory to real-world oligopolies (e.g., airlines, telecom)
+
