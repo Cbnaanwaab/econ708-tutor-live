@@ -1,0 +1,119 @@
+# Week 5: Elasticity and Demand
+
+## Core Concepts
+
+- **Price Elasticity of Demand (E)**: Measures % change in Qd from a 1% change in P.
+  - Formula: E = (%ΔQ / %ΔP)
+  - Always negative, but we interpret using the absolute value |E|.
+
+- **Elasticity Types**:
+  - Elastic: |E| > 1 → Q-effect dominates
+  - Inelastic: |E| < 1 → P-effect dominates
+  - Unitary Elastic: |E| = 1 → TR unchanged
+
+- **Total Revenue (TR = P × Q) and Elasticity**:
+  - If demand is elastic: price ↑ → TR ↓
+  - If demand is inelastic: price ↑ → TR ↑
+  - If unit elastic: TR remains constant
+
+- **Determinants of Elasticity**:
+  1. Availability of substitutes
+  2. Budget share spent on the good
+  3. Adjustment time
+
+- **Alternative Elasticity Formulas**:
+  - Point Elasticity (linear):  
+    E = b × (P/Q), or E = (ΔQ/ΔP) × (P/Q)
+  - Arc Elasticity (interval):  
+    E = [(Q2 – Q1)/(Q2 + Q1)] ÷ [(P2 – P1)/(P2 + P1)]
+
+- **Elasticity and Demand Curves**:
+  - On linear demand curves: elasticity varies along the curve (more elastic at higher P).
+  - For Q = aPᵇ: elasticity is constant (equal to b).
+
+- **Marginal Revenue (MR)**:
+  - MR = ΔTR / ΔQ
+  - If |E| > 1 → MR > 0 (TR ↑)
+  - If |E| = 1 → MR = 0 (TR max)
+  - If |E| < 1 → MR < 0 (TR ↓)
+  - MR for linear demand P = A + BQ → MR = A + 2BQ
+
+- **Income Elasticity (EM)**:
+  - EM = (%ΔQ / %ΔM)
+  - Normal good: EM > 0; Inferior good: EM < 0
+
+- **Cross-Price Elasticity (EXY)**:
+  - EXY = (%ΔQx / %ΔPy)
+  - Substitutes: EXY > 0; Complements: EXY < 0
+
+## Key Formulas
+
+- **Price Elasticity**: E = (ΔQ / ΔP) × (P / Q)
+- **Arc Elasticity**:  
+  E = [(Q2 – Q1)/(Q2 + Q1)] ÷ [(P2 – P1)/(P2 + P1)]
+- **Marginal Revenue (general)**:  
+  MR = P × (1 – 1/|E|)
+- **Income Elasticity**: EM = (ΔQ / ΔM) × (M / Q)
+- **Cross-Price Elasticity**: EXY = (ΔQx / ΔPy) × (Py / Qx)
+
+## Worked Example
+
+**Q: A price change from $20 to $18 causes quantity to rise from 100 to 120. Calculate arc elasticity of demand.**
+
+E = [(120 – 100)/(120 + 100)] ÷ [(18 – 20)/(18 + 20)]  
+E = (20/220) ÷ (–2/38) = 0.0909 / (–0.0526) ≈ **–1.73**
+
+**Interpretation**: Demand is elastic over this interval.
+
+**Q: If demand is elastic and price increases, what happens to TR?**  
+TR falls because the quantity loss outweighs the price gain.
+
+## Graphical Insights (Described)
+
+- Elastic region is upper portion of a linear demand curve (high P).
+- Inelastic region is lower portion (high Q).
+- TR curve is maximized where |E| = 1 (unit elasticity).
+- MR curve lies below demand; when MR = 0, TR is at max.
+
+## Practice Quiz Questions
+
+**1. If demand is elastic, what happens to TR when price rises?**  
+A. Increases  
+B. Decreases  
+C. Stays the same  
+D. Becomes negative  
+**Answer:** B
+
+**2. A good with income elasticity of –0.5 is:**  
+A. A luxury  
+B. A necessity  
+C. Inferior  
+D. Complementary  
+**Answer:** C
+
+**3. Cross-price elasticity between Pepsi and Coke is likely:**  
+A. Positive  
+B. Negative  
+C. Zero  
+D. Undefined  
+**Answer:** A
+
+**4. If MR < 0, then demand is:**  
+A. Elastic  
+B. Inelastic  
+C. Unit elastic  
+D. Perfectly elastic  
+**Answer:** B
+
+**5. Which of the following would increase price elasticity of demand?**  
+A. Fewer substitutes  
+B. Shorter time horizon  
+C. Larger budget share  
+D. Less responsiveness  
+**Answer:** C
+
+## Additional Teaching Notes
+
+- Reinforce the link between **elasticity and pricing strategy**.
+- Use **TR and MR graphs** to visualize impact of elasticity on revenue.
+- Emphasize applications in **marketing, pricing, and regulation**.
